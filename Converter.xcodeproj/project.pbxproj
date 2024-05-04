@@ -11,6 +11,10 @@
 		141BF1492BE5CCA5006A6B1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141BF1482BE5CCA5006A6B1F /* ContentView.swift */; };
 		141BF14B2BE5CCA7006A6B1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 141BF14A2BE5CCA7006A6B1F /* Assets.xcassets */; };
 		141BF14E2BE5CCA7006A6B1F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 141BF14D2BE5CCA7006A6B1F /* Preview Assets.xcassets */; };
+		141BF1552BE5CD55006A6B1F /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141BF1542BE5CD55006A6B1F /* Temperature.swift */; };
+		141BF1572BE5DA50006A6B1F /* Length.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141BF1562BE5DA50006A6B1F /* Length.swift */; };
+		141BF1592BE5DB55006A6B1F /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141BF1582BE5DB55006A6B1F /* Time.swift */; };
+		141BF15B2BE5DBFB006A6B1F /* ConvertButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141BF15A2BE5DBFB006A6B1F /* ConvertButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		141BF1482BE5CCA5006A6B1F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		141BF14A2BE5CCA7006A6B1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		141BF14D2BE5CCA7006A6B1F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		141BF1542BE5CD55006A6B1F /* Temperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperature.swift; sourceTree = "<group>"; };
+		141BF1562BE5DA50006A6B1F /* Length.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Length.swift; sourceTree = "<group>"; };
+		141BF1582BE5DB55006A6B1F /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
+		141BF15A2BE5DBFB006A6B1F /* ConvertButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,10 @@
 				141BF1482BE5CCA5006A6B1F /* ContentView.swift */,
 				141BF14A2BE5CCA7006A6B1F /* Assets.xcassets */,
 				141BF14C2BE5CCA7006A6B1F /* Preview Content */,
+				141BF1542BE5CD55006A6B1F /* Temperature.swift */,
+				141BF1562BE5DA50006A6B1F /* Length.swift */,
+				141BF1582BE5DB55006A6B1F /* Time.swift */,
+				141BF15A2BE5DBFB006A6B1F /* ConvertButton.swift */,
 			);
 			path = Converter;
 			sourceTree = "<group>";
@@ -138,7 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				141BF1492BE5CCA5006A6B1F /* ContentView.swift in Sources */,
+				141BF1572BE5DA50006A6B1F /* Length.swift in Sources */,
+				141BF1592BE5DB55006A6B1F /* Time.swift in Sources */,
 				141BF1472BE5CCA5006A6B1F /* ConverterApp.swift in Sources */,
+				141BF1552BE5CD55006A6B1F /* Temperature.swift in Sources */,
+				141BF15B2BE5DBFB006A6B1F /* ConvertButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

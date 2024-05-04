@@ -9,13 +9,19 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            Grid {
+                GridRow {
+                    ConvertButton(buttonLabel: "Temperture", iconName: "thermometer.medium", destination: Temperature())
+                    ConvertButton(buttonLabel: "Length", iconName: "ruler", destination: Length())
+                }
+                GridRow {
+                    ConvertButton(buttonLabel: "Time", iconName: "clock", destination: Time())
+                }
+            }.padding(.all)
+            Spacer()
+
         }
-        .padding()
     }
 }
 
